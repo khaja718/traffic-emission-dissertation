@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Results
+results/figures/*
+results/models/*
+results/plots/*
+!results/figures/.gitkeep
+!results/models/.gitkeep
+!results/plots/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
